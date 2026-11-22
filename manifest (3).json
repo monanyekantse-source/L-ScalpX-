@@ -1,0 +1,53 @@
+{
+  "id": "/L-ScalpX-/",
+  "name": "L ScalpX Bot",
+  "short_name": "L ScalpX",
+  "description": "L ScalpX is a private trading assistant: live chart scanner, real economic calendar, market sessions and MT5 execution with built-in risk limits.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#050810",
+  "theme_color": "#050810",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
